@@ -1,13 +1,18 @@
 ---
-title: "Introduction"
+title: "Introduction to EEGLAB"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What are the analytic capabilities of EEGLAB"
+- "Requirements (Matlab)"
+- "What are the benefits of using an extendable platform"
+- "How are scripting procedures facilitated"
+- "How do data structures correspond with the BIDS standard"
 objectives:
-- "First learning objective. (FIXME)"
+- "Understand position of EEGLAB among other EEG analytics tools"
+- "Establish a global view of analytic capabilities of EEGLAB"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "What can I do with EEGLAB?"
 ---
 FIXME
 

@@ -1,18 +1,19 @@
 ---
-title: "Introduction to EEGLAB"
+title: "The EEG structure mapped to BIDS-EEG"
 teaching: 0
 exercises: 0
 questions:
-- "What are the analytic capabilities of EEGLAB"
-- "Requirements (Matlab)"
-- "What are the benefits of using an extendable platform"
-- "How are scripting procedures facilitated"
-- "How do data structures correspond with the BIDS standard"
+- "Where are the EEG properites stored in EEGLAB's EEG structure?"
+- "What is the mapping of the EEG structure to the BIDS-EEG standard?"
+- "How to work with the data array"
+- "How to work with the events structure"
+- "How to work with the channel coordinate structure"
+- "How to work with the ICA related fields"
 objectives:
-- "Understand position of EEGLAB among other EEG analytics tools"
-- "Establish a global view of analytic capabilities of EEGLAB"
+- "Learn to interact with all the aspects of an EEG data file in EEGLAB"
+- "Establish a global view of the information layout in EEGLAB"
 keypoints:
-- "What can I do with EEGLAB?"
+- "Where is all of the EEG recording information stored in the EEGLAB file structure?"
 ---
 FIXME
 

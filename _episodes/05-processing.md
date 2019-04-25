@@ -7,7 +7,7 @@ questions:
 - "How can data be viewed from EEGLAB"
 - "How can Event Related Potentials be generated in EEGLAB"
 objectives:
-- "Undertand how to view and process data in EEGLAB"
+- "Understand how to view and process data in EEGLAB"
 keypoints:
 - "Working with the data in EEGLAB"
 ---

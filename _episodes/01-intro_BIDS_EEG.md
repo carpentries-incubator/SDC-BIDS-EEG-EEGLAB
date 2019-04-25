@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the BIDS-EEG standard"
+title: "Introduction to BIDS-EEG"
 teaching: 0
 exercises: 0
 questions:

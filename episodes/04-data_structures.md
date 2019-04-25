@@ -12,8 +12,10 @@ questions:
 objectives:
 - "Learn to interact with all the aspects of an EEG data file in EEGLAB"
 - "Establish a global view of the information layout in EEGLAB"
+- "Understand how the EEG structure in EEGLAB relates to the BIDS-EEG standard"
 keypoints:
 - "Where is all of the EEG recording information stored in the EEGLAB file structure?"
+- "How does EEGLAB structure relate to the BIDS-EEG structure?"
 ---
 FIXME
 

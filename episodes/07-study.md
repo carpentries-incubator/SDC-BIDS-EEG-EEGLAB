@@ -8,7 +8,7 @@ questions:
 - "Plotting group level ERPs and making comparissons"
 objectives:
 - "Undertand how to summarize and visualize data across EEG sessions"
-- "Understand the relationship of single sessions 'set' files in relations the STUDY structure"
+- "Understand the relationship of single session 'set' files in relation the STUDY structure"
 - "Undertand how to explore the EEG data measures across groups, condiditons, etc."
 keypoints:
 - "Making summaries and comparisons of outcome measures"

@@ -8,7 +8,7 @@ questions:
 - "What are the benefits of using an extendable platform?"
 - "How are scripting procedures facilitated?"
 objectives:
-- "Understand position of EEGLAB among other EEG analytics tools"
+- "Understand the position of EEGLAB among other EEG analytics tools"
 - "Establish a global view of analytic capabilities of EEGLAB"
 keypoints:
 - "What can be done with EEGLAB?"

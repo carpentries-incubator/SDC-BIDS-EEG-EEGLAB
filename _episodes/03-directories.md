@@ -21,9 +21,18 @@ For our purposes we can think of Matlab doing two very important things:
 1. it stores information in memory as different kinds of variables
 2. it can perform operations (or functions) on those variable
 
-lets open Matlab and take a look at these capabilities.
+Lets open the Matlab Integrated Development Environment (IDE) and take a look at these capabilities.
 
 ![Matlab Integrated Development Environment]({{ page.root }}/fig/matlabIDE.png)
+
+> ## Note
+> The Matlab IDE is made up of several sections in the Graphical User Interface (GUI). Each of these are important to understand as we move towards interacting with EEG data via EEGLAB.
+1. Command Window: This is where we interact with Matlab using the Command Line Interface (CLI) creating variable and performaing operations on them.
+2. Current FOlder: This is the directory that Matlab if pointing to. This is the part of the file system that Matlab sees an is its starting point for relative paths.
+3. Workspace: this is a summary of the variables that are accessible to the Command Window
+4. Command History: This is the interactive list of operations that have been called from the Command Window.
+5. Editor: This is a text editor with added features for modifying Matlable interpreted text files (*.m files). 
+
 
 {% include links.md %}
 

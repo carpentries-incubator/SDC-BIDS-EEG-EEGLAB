@@ -45,6 +45,12 @@ We can create a new variable named "x" and make it equal to a series of numbers:
 ~~~
 {: .source}
 
+> ## There are several ways to store information in the workspace
+>There are several types of variables in Matlab, such as the numeric array above, but there are also strings, cell arrays and structures. EEGLAB stores its information in a structure named "EEG". That is where we will find all of the EEG properties that EEGLAB has at its disposal later in this lesson.
+{: .callout}
+
+#### **Performing operations on variables in the Matlab CLI**
+
 We can also perform operations on the variable and have the result saved to a new varialbe "y":
 ~~~
 >> y=mean(x);

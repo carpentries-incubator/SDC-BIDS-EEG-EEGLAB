@@ -40,14 +40,16 @@ Lets open the Matlab Integrated Development Environment (IDE) and take a look at
 Making new variables (or modifying existing variables) is accomplished using the "=" character.
 
 We can create a new variable named "x" and make it equal to a series of numbers:
-'''bash
+~~~
 >> x=[1,2,3,4,5];
-'''
+~~~
+{: .source}
 
 We can also perform operations on the variable and have the result saved to a new varialbe "y":
-'''bash
+~~~
 >> y=mean(x);
-'''
+~~~
+{: .source}
 
 {% include links.md %}
 

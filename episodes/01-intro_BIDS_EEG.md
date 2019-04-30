@@ -15,11 +15,11 @@ keypoints:
 
 ## The big picture of EEG data standards
 
-#### **EEG data is complicated and with many properties that can be stored in an infinit number of ways**
+#### **EEG data is complicated and with many properties that can be stored in an infinite number of ways**
 
-In order ot work with EEG data the researcher needs to work with several properties of the data. These properties include things like the voltage signals that are sampled at a specific rate, the physical locations of the recording sites, as well as more idiosyncratic properites like the experimental task event marks, etc. When building a lab or planning a new study decisions are made about all of the EEG properties and those properties make up the interpretable material of the research project. Decisions are also made about how all of that information is going to stored so that it can be found and used by the researcher and software tools later.
+In order to work with EEG data the researcher needs to work with several properties of the data. These properties include things like the voltage signals that are sampled at a specific rate, the physical locations of the recording sites, as well as more idiosyncratic properties like the experimental task event marks, etc. When building a lab or planning a new study decisions are made about all of the EEG properties and those properties make up the interpretable material of the research project. Decisions are also made about how all of that information is going to stored so that it can be found and used by the researcher and software tools later.
 
-How does a researcher make decisons about these parameters when building a new lab or starting a new project?
+How does a researcher make decisions about these parameters when building a new lab or starting a new project?
 
 How should the information be stored so that it can be used efficiently later?
 

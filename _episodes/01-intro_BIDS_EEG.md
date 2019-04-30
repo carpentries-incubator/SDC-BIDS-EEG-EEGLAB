@@ -25,7 +25,7 @@ How should the information be stored so that it can be used efficiently later?
 
 What if you want to share the data with another research group?
 
-What if you want to use someone elses data?
+What if you want to use someone else's data?
 
 What if you want to use someone else analytical tools and procedures?
 

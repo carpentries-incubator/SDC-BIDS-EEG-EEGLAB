@@ -36,6 +36,18 @@ Lets open the Matlab Integrated Development Environment (IDE) and take a look at
 > {: .source}
 {: .callout}
 
+#### **Creating variables in the Matlab CLI**
+Making new variables (or modifying existing variables) is accomplished using the "=" character.
+
+We can create a new variable named "x" and make it equal to a series of numbers:
+'''bash
+>> x=[1,2,3,4,5];
+'''
+
+We can also perform operations on the variable and have the result saved to a new varialbe "y":
+'''bash
+>> y=mean(x);
+'''
 
 {% include links.md %}
 

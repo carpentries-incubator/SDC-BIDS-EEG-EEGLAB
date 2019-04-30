@@ -12,7 +12,26 @@ keypoints:
 - "what does it take to standardize an EEG project?"
 - "what is gained by standardizing an EEG project?"
 ---
-FIXME
+
+## The big picture of EEG data standards
+
+#### **EEG data is complicated and with many properties that can be stored in an infinit number of ways**
+
+In order ot work with EEG data the researcher needs to work with several properties of the data. These properties include things like the voltage signals that are sampled at a specific rate, the physical locations of the recording sites, as well as more idiosyncratic properites like the experimental task event marks, etc. When building a lab or planning a new study decisions are made about all of the EEG properties and those properties make up the interpretable material of the research project. Decisions are also made about how all of that information is going to stored so that it can be found and used by the researcher and software tools later.
+
+How does a researcher make decisons about these parameters when building a new lab or starting a new project?
+
+How should the information be stored so that it can be used efficiently later?
+
+What if you want to share the data with another research group?
+
+What if you want to use someone elses data?
+
+What if you want to use someone else analytical tools and procedures?
+
+What if you want to your data to be relevant long term?
+
+What if you want to be able to pool your data?
 
 {% include links.md %}
 

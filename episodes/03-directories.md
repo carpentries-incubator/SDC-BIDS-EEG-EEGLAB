@@ -25,7 +25,7 @@ Lets open the Matlab Integrated Development Environment (IDE) and take a look at
 
 ![Matlab Integrated Development Environment]({{ page.root }}/fig/matlabIDE.png)
 
-> ## Note
+> ## Anatomy of the Matlab Integrated Development Environment (IDE)
 > The Matlab IDE is made up of several sections in the Graphical User Interface (GUI). Each of these are important to understand as we move towards interacting with EEG data via EEGLAB.
 > 1. Command Window: This is where we interact with Matlab using the Command Line Interface (CLI) creating variable and performaing operations on them.
 > 2. Current FOlder: This is the directory that Matlab if pointing to. This is the part of the file system that Matlab sees an is its starting point for relative paths.

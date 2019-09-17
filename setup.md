@@ -4,7 +4,7 @@ title: Setup
 
 ### Download and install MATLAB
 
-- You will need a fairly recent version of MATLAB (procedure tested on MATLAB 2012b and newer versions). For detailed installation instructions, click [here](https://www.mathworks.com/help/compiler/install-the-matlab-runtime.html).
+You will need a fairly recent version of MATLAB (procedure tested on MATLAB 2012b and newer versions). For detailed installation instructions, click [here](https://www.mathworks.com/help/compiler/install-the-matlab-runtime.html).
 
 ### Download the Face13 Tutorial Dataset
 

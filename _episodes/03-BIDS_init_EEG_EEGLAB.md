@@ -1,20 +1,20 @@
 ---
-title: "Introduction to BIDS-EEG"
+title: "Initializing data into BIDS Standard"
 teaching: 0
 exercises: 0
 questions:
 - "How do I get my data into a BIDS standard?"
 objectives:
-- "Understand how to initialize your data into a BIDS standard.
+- "Understand how to initialize your data into the BIDS standard.
 keypoints:
-- "Your data will be initialized and in a BIDS standard and are now ready to be submitted to the Lossless pipeline."
+- "Your data will be initialized into the BIDS standard and is ready to be submitted to the Lossless pipeline."
 ---
 
 ## Initializing Data
 
-1. Download Face13 sourcedata folder from [here](https://drive.google.com/drive/folders/1xq85woDpAYXhCtzdgjkXpjjjggiWSKtc)
+1. Download Face13 sourcedata folder from [here](https://drive.google.com/drive/folders/1xq85woDpAYXhCtzdgjkXpjjjggiWSKtc). The whole `sourcedata` folder needs to be downloaded.
 
-2. Create a project folder (for the tutorial we will call this folder 'Face13'). This can be done in a terminal window: 
+2. Create a project folder in the location that you would like to work from (for the tutorial we will call this folder 'Face13'). This can be done in a terminal window: 
 
     ```bash
     >> mkdir Face13
@@ -25,7 +25,7 @@ keypoints:
 4. Change directory into the Face13 folder:
 
     ```bash
-    >> cd path/to/project/directory/Face_13/
+    >> cd Face13
     ```
 
 5. Create a code folder within the project folder:
@@ -67,6 +67,7 @@ keypoints:
     ```matlab
     >> bids_face13
     ```
+12. Select the project directory with the file chooser. 
 
 {% include links.md %}
 

@@ -1,13 +1,13 @@
 ---
-title: "Initializing data into the BIDS Standard"
+title: "Initializing data into BIDS Standard"
 teaching: 0
 exercises: 0
 questions:
-- "How do I get my data into the BIDS standard?"
+- "How do I get my data into BIDS standard?"
 objectives:
-- "Understand how to initialize your data into the BIDS standard."
+- "Understand how to initialize your data into BIDS standard."
 keypoints:
-- "Your data will be initialized into the BIDS standard and is readt to be submitted to the Lossless pipeline"
+- "Your data will be initialized into the BIDS standard and is ready to be submitted to the Lossless pipeline"
 ---
 
 ## Initializing Data
@@ -68,6 +68,8 @@ keypoints:
     >> bids_face13
     ```
 12. Select the project directory with the file chooser. 
+
+13. Once this procedure is completed, you should notice your initialized data is in the BIDS standard (`sub-*/eeg/`) in the root of your project folder. 
 
 {% include links.md %}
 

@@ -1,11 +1,11 @@
 ---
-title: "Initializing data into BIDS Standard"
+title: "Initializing data into the BIDS Standard"
 teaching: 0
 exercises: 0
 questions:
-- "How do I get my data into BIDS standard?"
+- "How do I get my data into the BIDS standard?"
 objectives:
-- "Understand how to initialize your data into BIDS standard."
+- "Understand how to initialize your data into the BIDS standard."
 keypoints:
 - "Your data will be initialized into the BIDS standard and is ready to be submitted to the Lossless pipeline"
 ---

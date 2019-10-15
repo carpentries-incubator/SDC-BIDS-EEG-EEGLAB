@@ -1,5 +1,5 @@
 ---
-title: "Initializing data into the BIDS Standard"
+title: "Initializing Data into the BIDS Standard"
 teaching: 0
 exercises: 0
 questions:
@@ -46,7 +46,7 @@ keypoints:
     >> git clone --recursive https://github.com/BUCANL/BIDS-Init-Face13-EEGLAB.git
     ```
 
-8. Open MATLAB and navigate to your project directory to make it your current path. 
+8. Open MATLAB and navigate to your project directory (Face13 directory) to make it your current path. 
 
 9. In the MATLAB command window type:
 
@@ -67,9 +67,9 @@ keypoints:
     ```matlab
     >> bids_face13
     ```
-12. Select the project directory with the file chooser. 
+12. A file chooser window will pop up when running the `bids_face13.m` script. Select the **project directory** with the file chooser. 
 
-13. Once this procedure is completed, you should notice your initialized data is in the BIDS standard (`sub-*/eeg/`) in the root of your project folder. 
+13. Once this procedure is completed, your initialized data will be in the BIDS standard (`sub-*/eeg/`) in the root of your project folder. 
 
 {% include links.md %}
 

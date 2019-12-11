@@ -40,7 +40,7 @@ keypoints:
     >> cd code
     ```
 
-7. Within the code folder, clone the BIDS initialization suite:
+7. Within the code folder, clone the BIDS initialization suite. **NOTE:** Use the recursive flag in order to clone all the required submodules:
 
     ```bash
     >> git clone --recursive https://github.com/BUCANL/BIDS-Init-Face13-EEGLAB.git

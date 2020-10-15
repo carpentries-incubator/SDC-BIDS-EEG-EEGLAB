@@ -8,10 +8,9 @@ An introduction to working with EEGLAB and BIDS-EEG. The rendered version of the
 
 | # | Episode | Time | Questions |
 | ---- | ---- | :----: | ---- |
-| 1 | [Intorduction to BIDS-EEG](https://bucanl.github.io/SDC-BIDS-EEG-EEGLAB/01-intro_BIDS_EEG/index.html) | 30 | Why are data standards important? <br> What information needs to be standardized for EEG? |
-| 2 | [EEGLAB within BIDS-EEG](https://bucanl.github.io/SDC-BIDS-EEG-EEGLAB/02-data_property/index.html) | 30 | What does EEGLAB need to know about the folder structures? <br> How to set up the paths in Matlab/Octave? | 
-| 3 | [Initializing Data into the BIDS standard](https://bucanl.github.io/SDC-BIDS-EEG-EEGLAB/03-BIDS_init_EEG_EEGLAB/index.html) | 30 | How do I get my data into the BIDS standard? | 
-| 4 | [Customizing Initalization Scripts](https://bucanl.github.io/SDC-BIDS-EEG-EEGLAB/04-editing_scripts/index.html) | 30 | What changes need to be made to the initalization scripts for my own data? | 
+| 1 | [Intorduction to BIDS-EEG](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/01-intro_BIDS_EEG/index.html) | 30 | Why are data standards important? <br> What information needs to be standardized for EEG? |
+| 2 | [EEGLAB within BIDS-EEG](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/02-data_property/index.html) | 30 | What does EEGLAB need to know about the folder structures? <br> How to set up the paths in Matlab/Octave? | 
+| 3 | [Initializing Data into the BIDS standard](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/03-BIDS_init_EEG_EEGLAB/index.html) | 30 | How do I get my data into the BIDS standard? | 
 
 ## Contributing
 

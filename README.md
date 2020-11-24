@@ -2,7 +2,7 @@
 
 [![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
 
-An introduction to working with EEGLAB and BIDS-EEG. The rendered version of the lesson can be found [here](https://bucanl.github.io/SDC-BIDS-EEG-EEGLAB/)
+An introduction to working with EEGLAB and BIDS-EEG. The rendered version of the lesson can be found [here](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/)
 
 ## Episodes
 

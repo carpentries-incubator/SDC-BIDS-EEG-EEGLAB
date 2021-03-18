@@ -4,7 +4,7 @@ teaching: 0
 exercises: 0
 questions:
 - "How do I get my data into a BIDS compliant folder structure?"
--"What does a BIDS folder structure look like?"
+- "What does a BIDS folder structure look like?"
 objectives:
 - "Understand how to initialize your data into BIDS."
 keypoints:

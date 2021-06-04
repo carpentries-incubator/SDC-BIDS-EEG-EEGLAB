@@ -60,6 +60,7 @@ Then from within the code folder, clone the BIDS initialization suite. **NOTE:**
 
 It is important that the initalization suite is cloned into the `code` folder within your `Face13` project folder because we will have to let Matlab know where in our path EEGLAB is located.
 
+## The basics of working with data in Matlab
 
 #### **EEGLAB is a set of Matlab functions (... which are text files).**
 

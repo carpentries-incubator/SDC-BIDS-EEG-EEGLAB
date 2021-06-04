@@ -13,7 +13,7 @@ keypoints:
 
 ## Creating a BIDS folder structure 
 
-Initalizing data into a BIDS compliant folder structure will result in individual subject folders that contain an `eeg` folder.  All of the EEG files for that participant will be stored within `sub-*/eeg/` folder. 
+Initalizing data into a BIDS compliant folder structure will result in individual subject folders that contain an `eeg` folder.  All of the EEG files for that participant will be stored within `sub-*/eeg/` folders. 
 
 To make the data compliant with BIDS, run the `bids_face13.m` script in the Matlab Command Window:
 

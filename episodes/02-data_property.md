@@ -13,55 +13,6 @@ keypoints:
 
 ## What does Matlab need to know about the BIDS structure in order to run EEGLAB?
 
-#### **Creating Project Folder**
-
-Before we start working in Matlab, we need to create the project folder that we will be working in throughout this tutorial. For this tutorial we will call this folder 'Face13'. Make this folder in a location that is convenient and easy to navigate to such as on your Desktop. Making this folder can be done in a terminal window using the following command:
-
-~~~
->> mkdir Face13
-~~~
-{: .language-bash}
-
-To begin working with the sample dataset, move the `sourcedata` folder that you downloaded during setup into this `Face13` project folder. It is important that the EEG set files are located in the `sourcedata/eeg` folder so that the BIDS initalization script is able to locate the files. There are a few more folders that we have to make in order for our dataset to be BIDS compliant. 
-
-We are now going to make a code folder within our project (Face13) folder. In line with the BIDS specification, the `code` folder in the root of our project folder will store the source code of scripts that are used to prepare the dataset.
-
-To do this through the terminal, first change directory into the Face13 folder:
-
-~~~
->> cd Face13
-~~~
-{: .language-bash}
-
-Then create a `code` folder within the project folder:
-
-~~~
->> mkdir code
-~~~
-{: .language-bash}
-
-#### **Download Initialization Suite**
-
-We will download the BIDS initialization suite into the `code` folder. The BIDS initialization suite contains a version of EEGLAB as well as the scripts that are necessary to initialize our raw data for preprocessing and organize our data into a BIDS compliant folder scructure. This initialization suite can be downloaded using the git clone command in the terminal. 
-
-First, change directory into the code folder:
-    
-~~~
->> cd code
-~~~
-{: .language-bash}
-
-Then from within the code folder, clone the BIDS initialization suite. **NOTE:** Use the recursive flag in order to clone all the required submodules:
-
-~~~
->> git clone --recursive https://github.com/BUCANL/BIDS-Init-Face13-EEGLAB.git
-~~~
-{: .language-bash}
-
-It is important that the initalization suite is cloned into the `code` folder within your `Face13` project folder because we will have to let Matlab know where in our path EEGLAB is located.
-
-## The basics of working with data in Matlab
-
 #### **EEGLAB is a set of Matlab functions (... which are text files).**
 
 Lets now take a look at how the functions operate in the Matlab environment. Matlab is an interpreted language. This means that it will read some text, interpret it in a very specific way and then perform the operations that are defined by the text.

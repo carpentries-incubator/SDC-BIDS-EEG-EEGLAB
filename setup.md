@@ -2,13 +2,19 @@
 title: Setup
 ---
 
-### Download and install MATLAB
+### Download and install Matlab
 
-You will need a fairly recent version of MATLAB (procedure tested on MATLAB 2012b and newer versions). For detailed installation instructions, click [here](https://www.mathworks.com/help/compiler/install-the-matlab-runtime.html).
+You will need a fairly recent version of Matlab (procedure tested on Matlab 2012b and newer versions). For detailed installation instructions, click [here](https://www.mathworks.com/help/compiler/install-the-matlab-runtime.html).
 
-### Download the Face13 Tutorial Dataset
+### Obtain lesson materials
 
-The Face13 tutorial dataset can be downloaded from this [google drive](https://drive.google.com/drive/folders/1xq85woDpAYXhCtzdgjkXpjjjggiWSKtc). Download the `sourcedata` folder from the drive. This folder contains the raw EEG data, standard montages that are used during initialization, and task information.
+1. Download the Face13 tutorial dataset from this [google drive](https://drive.google.com/file/d/1AWgN0DOstCw7UB5puxHL_beddNzPZ__v/view?usp=sharing). 
+2. Download the initalization suite from this [google drive](https://drive.google.com/file/d/1p1OCsOdu27Tg_QYhNx_mJIkNm3ygyekr/view?usp=sharing)
+3. Create a folder called `Face13` on your Desktop.
+4. Move the downloaded folders to `Face13`.
+5. Unzip the folders. 
+
+You should see two folders called `sourcedata` and `code` in the `Face13` directory on your Desktop. The `sourcedata` folder contains the EEG data and standard montages that are used during initialization. The `code` folder contains a version of EEGLAB and the necessary scripts to intialize the data into a BIDS compliant folder structure.
 
 
 {% include links.md %}

@@ -1,5 +1,5 @@
 ---
-title: "EEGLAB within BIDS-EEG"
+title: "Matlab: need to knows"
 teaching: 0
 exercises: 0
 questions:
@@ -11,7 +11,7 @@ keypoints:
 - "Working with EEGLAB requires that specific files can be found in specific locations"
 ---
 
-## What does Matlab need to know about the BIDS structure in order to run EEGLAB?
+## What does Matlab need to know about the folder structure in order to run EEGLAB?
 
 #### **EEGLAB is a set of Matlab functions (... which are text files).**
 

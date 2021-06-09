@@ -54,17 +54,24 @@ Software and platform development often requires substantial effort for input an
 People time in a research project is an important consideration and the time spent on designing a data management strategy can vary greatly. It is also important to note that a unique data management strategy can have unexpected cost in the future. An established data standard has had the oprotunity to collect experience from across the research community over several generations of projects. 
 
 ## **The face13 data set**
+
 ![face13 ICA decomposition]({{ page.root }}/fig/SDC_EEG_face13_ICA.png)
+
 ![face13 DAR decomposition]({{ page.root }}/fig/SDC_EEG_face13_DAR.png)
 
 ## **The EEG-IP-L (EEG Integrated Platform Lossless) processing pipeline**
+
 ![EEG-IP-L diagram]({{ page.root }}/fig/SDC_EEG-IP-L_diag.png)
+
 ![EEG-IP-L dashboard]({{ page.root }}/fig/SDC_EEG-IP-L_dash.png)
 
 ## **EEG-BIDS examples: face13 data and the EEG-IP-L derivative**
+
 ![BIDS examples root]({{ page.root }}/fig/SDC_BIDS_example.png)
+
 ![BIDS examples raw]({{ page.root }}/fig/SDC_BIDS_example_raw_data.png)
-![BIDS examples raw]({{ page.root }}/fig/SDC_BIDS_example_derivative.png)
+
+![BIDS examples derivative]({{ page.root }}/fig/SDC_BIDS_example_derivative.png)
 
 
 {% include links.md %}

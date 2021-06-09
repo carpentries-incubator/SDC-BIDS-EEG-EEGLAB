@@ -19,7 +19,8 @@ keypoints:
 
 In order to work with EEG data the researcher needs to work with several properties of the data. These properties include things like the voltage signals that are sampled at a specific rate, the physical locations of the recording sites, as well as more idiosyncratic properties like the experimental task event marks, etc. When building a lab or planning a new study decisions are made about all of the EEG properties and those properties make up the interpretable material of the research project. Decisions are also made about how all of that information is going to be stored so that it can be found and used by the researcher and software tools later.
 
-#### When a researcher is make decisions about EEG parameters and storage strategy for a lab or project some of the questions they might ask are:
+
+#### **When a researcher is make decisions about EEG parameters and storage strategy for a lab or project some of the questions they might ask are:
 
 How should the information be stored so that it can be used efficiently now?
 
@@ -35,7 +36,8 @@ Are there existing analytic tools, procedures or platforms to which the data nee
 
 What are the costs now (and later) for designing a new unique data storage strategy?
 
-#### Can a data standard provide answers to these questions:
+
+#### **Can a data standard provide answers to these questions?
 
 It is always a concern that something important will be missed when designing a data strategy, a clear community driven discussion about adaptive best practices is an ideal way to build confidence in decisions.
 
@@ -51,5 +53,10 @@ Software and platform development often requires substantial effort for input an
 
 People time in a research project is an important consideration and the time spent on designing a data management strategy can vary greatly. It is also important to note that a unique data management strategy can have unexpected cost in the future. An established data standard has had the oprotunity to collect experience from across the research community over several generations of projects. 
 
+## The face13 data set
+
+## The EEG-IP-L (EEG Integrated Platform Lossless) processing pipeline
+
+## EEG-BIDS examples: face13 data and the EEG-IP-L derivative
 {% include links.md %}
 

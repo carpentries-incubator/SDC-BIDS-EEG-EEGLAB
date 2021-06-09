@@ -69,6 +69,8 @@ People time in a research project is an important consideration and the time spe
 
 ![BIDS examples root]({{ page.root }}/fig/SDC_EEG_BIDS_example.png)
 
+![BIDS examples source]({{ page.root }}/fig/SDC_BIDS_example_sourcedata.png)
+
 ![BIDS examples raw]({{ page.root }}/fig/SDC_BIDS_example_raw_data.png)
 
 ![BIDS examples derivative]({{ page.root }}/fig/SDC_BIDS_example_derivative.png)

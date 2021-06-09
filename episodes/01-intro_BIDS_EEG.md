@@ -75,6 +75,8 @@ People time in a research project is an important consideration and the time spe
 
 ![BIDS examples derivative]({{ page.root }}/fig/SDC_BIDS_example_derivative.png)
 
+![BIDS examples derivative]({{ page.root }}/fig/SDC_BIDS_example_derivative_data.png)
+
 
 {% include links.md %}
 

@@ -67,7 +67,7 @@ People time in a research project is an important consideration and the time spe
 
 ## **EEG-BIDS examples: face13 data and the EEG-IP-L derivative**
 
-![BIDS examples root]({{ page.root }}/fig/SDC_BIDS_example.png)
+![BIDS examples root]({{ page.root }}/fig/SDC_EEG_BIDS_example.png)
 
 ![BIDS examples raw]({{ page.root }}/fig/SDC_BIDS_example_raw_data.png)
 

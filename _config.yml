@@ -10,7 +10,7 @@
 carpentry: ""
 
 # Overall title for pages.
-title: "Working with EEGLAB and BIDS-EEG"
+title: "Working with EEGLAB and EEG-BIDS"
 
 # Life cycle stage of the lesson
 # possible values: "pre-alpha", "alpha", "beta", "stable"

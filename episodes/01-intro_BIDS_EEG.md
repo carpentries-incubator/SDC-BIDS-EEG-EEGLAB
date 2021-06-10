@@ -20,7 +20,7 @@ keypoints:
 In order to work with EEG data the researcher needs to work with several properties of the data. These properties include things like the voltage signals that are sampled at a specific rate, the physical locations of the recording sites, as well as more idiosyncratic properties like the experimental task event marks, etc. When building a lab or planning a new study decisions are made about all of the EEG properties and those properties make up the interpretable material of the research project. Decisions are also made about how all of that information is going to be stored so that it can be found and used by the researcher and software tools later.
 
 
-#### **When a researcher is make decisions about EEG parameters and storage strategy for a lab or project some of the questions they might ask are:**
+#### **When a researcher is making decisions about EEG parameters and storage strategy for a lab or project some of the questions they might ask are:**
 
 1- How should the information be stored so that it can be used efficiently now?
 
@@ -45,7 +45,7 @@ In order to work with EEG data the researcher needs to work with several propert
 
 3- When sharing data that is compliant with a data standard the recipient only needs to become familiar with the standard in order to access the relevant properties and parameters of the research data.
 
-4- Independent data sets that share compliance with a data standard can easily be pooled in terms of their storage strategy and access methods. Variance in project parameters still need to be addressed in the analytic process but those parameters can be accessed in common way.
+4- Independent datasets that share compliance with a data standard can easily be pooled in terms of their storage strategy and access methods. Variance in project parameters still need to be addressed in the analytic process but those parameters can be accessed in a common way.
 
 5- Open-access data curation platforms are the ideal place to make a data project openly available over the long term. Compliance with a data standard greatly facilitates the injestion of data into databases or platforms.
 

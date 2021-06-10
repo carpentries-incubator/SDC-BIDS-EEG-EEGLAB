@@ -6,7 +6,7 @@ questions:
 - "What does EEGLAB need to know about the folder structures?"
 - "How to set up the paths in Matlab for EEGLAB"
 objectives:
-- "Undertand what EEGLAB needs to be able to find (data and scripts) and how to tell it where to find them."
+- "Understand what EEGLAB needs to be able to find (data and scripts) and how to tell it where to find them."
 keypoints:
 - "Working with EEGLAB requires that specific files can be found in specific locations"
 ---
@@ -116,7 +116,7 @@ eeglab;
 ~~~
 {: .source}
 
-In Matlab, navigate to the Face13 folder that you created previously in this episode.
+In Matlab, navigate to the Face13 folder that you created during the setup.
 
 Now that Matlab is pointed to the Face13 folder we need to tell it where to find the "eeglab.m" file that we want to use for this lesson. Navigating in the Current Folder window (by expanding folders WITHOUT selecting (double clicking) them) we find the "eeglab.m" file in 'code/BIDS-Init-Face13-EEGLAB/eeglab'. We need to add this folder to Matlab's path in order to run this version of EEGLAB. We can add this folder to Matlab's path in several ways including using the "set path" button in the toolbar, but given that we are all in the same folder structure the following "addpath" calls in the Command Window should work. 
 

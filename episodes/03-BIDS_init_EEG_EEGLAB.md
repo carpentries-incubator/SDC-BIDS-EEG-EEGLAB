@@ -8,7 +8,7 @@ questions:
 objectives:
 - "Understand how to initialize your data into BIDS."
 keypoints:
-- "Your data will be initialized into the BIDS standard and is ready to be submitted to the EEG-IP-L pipeline"
+- "Now the data are initialized into the BIDS standard"
 ---
 
 ## Creating a BIDS folder structure 

@@ -13,7 +13,7 @@ keypoints:
 
 ## Creating a BIDS folder structure 
 
-Initalizing data into a BIDS compliant folder structure will result in individual subject folders that contain an `eeg` folder.  All of the EEG files for that participant will be stored within `sub-*/eeg/` folders. 
+Initializing data into a BIDS compliant folder structure will result in individual subject folders that contain an `eeg` folder.  All of the EEG files for that participant will be stored within `sub-*/eeg/` folders. 
 
 To make the data compliant with BIDS, run the `bids_face13.m` script in the Matlab Command Window:
 
@@ -32,9 +32,9 @@ Several files will be produced within each `sub-*/eeg/` folder. All of the file 
 
 Once this procedure is completed, your initialized data will be in the BIDS standard (`sub-*/eeg/`) in the root of your project folder. 
 
-#### **Exploring the formated text files with the participant folders**
+#### **Exploring the formatted text files with the participant folders**
 
-Now that the data sessions are bids compliant many of the data parameters are available within formatted text files. This makes it easy to explore the session parameters using a folder browser and simple text editor. No that this also makes it very efficient of tools and platform to access relevant session parameters without having to lead the large data files.
+Now that the data sessions are BIDS compliant many of the data parameters are available within formatted text files. This makes it easy to explore the session parameters using a folder browser and simple text editor. Note that this also makes it very efficient for tools and platform to access relevant session parameters without having to read the large data files.
 
 ![BIDS EEG tsv]({{ page.root }}/fig/SDC_BIDS_eeg_tsv.png)
 
@@ -49,7 +49,7 @@ The scripts used in this workshop use a forked version of the bids_matlab_tools 
 
 ![Edit bids_face13]({{ page.root }}/fig/SDC_BIDS_face13_edit.png)
 
-The bids_export function is the tool that does the bids compiant data writing of an EEGLAB EEG data struct. Looking through this function provides the information about what inputs are required to generate the BIDS compliant data set, as well as what options are available to modify the output.
+The bids_export function is the tool that does the BIDS compliant data writing of an EEGLAB EEG data structure. Looking through this function provides the information about what inputs are required to generate the BIDS compliant data set, as well as what options are available to modify the output.
 
 ~~~
 >> edit bids_export

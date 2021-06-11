@@ -96,6 +96,10 @@ Each participant's files contains an EDF file for the EEG signals and then sever
 
 ![BIDS examples raw]({{ page.root }}/fig/SDC_BIDS_example_raw_data.png)
 
+The software tools and scripts used to transform the are an important part of being able to work with and interpret the data long term. This is not to mention the importance of storing code with the data for reasons of replication. The code folder of the BIDS is where all of the relevant procedures are stored.
+
+![BIDS examples code]({{ page.root }}/fig/SDC_BIDS_example_code_root.png)
+
 The project's root folder can also contain derivatives, or subsequent states of the processed data.
 
 ![BIDS examples derivative]({{ page.root }}/fig/SDC_BIDS_example_derivative.png)

@@ -68,19 +68,39 @@ The preprocessing methods used in this paper to objectively produce robust ICA d
 
 ![EEG-IP-L diagram]({{ page.root }}/fig/SDC_EEG-IP-L_diag.png)
 
-The method also includes an interactive quality control method in which the researcher assesses various signal quality annotation.
+The method also includes an interactive quality control method in which the researcher assesses and potentially modifies various signal quality annotation.
 
 ![EEG-IP-L dashboard]({{ page.root }}/fig/SDC_EEG-IP-L_dash.png)
 
 ## **EEG-BIDS examples: face13 data and the EEG-IP-L derivative**
 
+The Brain Imaging Data Structure (BIDS: https://bids.neuroimaging.io/) is a standard for organizing the content of various neuroimaging modalities (MRI, MEG, EEG). "The brain imaging data structure, a format for organizing ansd describing outputs of neuroimaging experiments" was published in 2016 by Gorgolewski et al., (Nature: https://www.nature.com/articles/sdata201644). "EEG-BIDS, an extension to the brain imaging data structure for electroencephalography" was published in 2019 by Pernet et al., (Nature: https://www.nature.com/articles/s41597-019-0104-8).
+
+The BIDS standard starter kit can be found at github here: https://github.com/bids-standard/bids-starter-kit
+
+The standard is actively discussed and evolving to adopt new features. You can find the face13 data set among the bids-examples at github here: https://github.com/bids-standard/bids-examples
+
+Navigating the example data sets provides not only a demonstration of the data organization but also the diversity tha tthe standard enables.
+
+The eeg_face13 examples data set (https://github.com/bids-standard/bids-examples/tree/bep021_ephys_derivatives/eeg_face13) not only demonstrates the layout of the raw sample data in the standard but also contains an example of storing the output of the EEG-IP-L pipeline as a derivative state of sample.
+
+The root folder of the projects BIDS structure contains high level project information and a directory for each participant.
+
 ![BIDS examples root]({{ page.root }}/fig/SDC_EEG_BIDS_example.png)
+
+Although the raw rata are stored in specified formats the original native files acquired in the lab hardware can always remain in the sourcdata folder.
 
 ![BIDS examples source]({{ page.root }}/fig/SDC_BIDS_example_sourcedata.png)
 
+Each participant's files contains an EDF file for the EEG signals and then several format text files containing the detaisl of specific session properties such as channel locations and event markers.
+
 ![BIDS examples raw]({{ page.root }}/fig/SDC_BIDS_example_raw_data.png)
 
+The project's root folder can also contain derivatives, or subsequent states of the processed data.
+
 ![BIDS examples derivative]({{ page.root }}/fig/SDC_BIDS_example_derivative.png)
+
+A derivative folder matches the organization of the project's root folder, but its contents are a transformation of the parent directory. Derivative folders themselves can contain derivatives folders recursively as data states are transformed into subsequent data states.
 
 ![BIDS examples derivative]({{ page.root }}/fig/SDC_BIDS_example_derivative_data.png)
 

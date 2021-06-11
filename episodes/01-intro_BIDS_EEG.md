@@ -54,14 +54,21 @@ In order to work with EEG data the researcher needs to work with several propert
 7- People time in a research project is an important consideration and the time spent on designing a data management strategy can vary greatly. It is also important to note that a unique data management strategy can have unexpected cost in the future. An established data standard has had the oprotunity to collect experience from across the research community over several generations of projects. 
 
 ## **The face13 data set**
+The example data set is the sample used in the 2013 paper "Deconstructing the early visual electrocortical responses to face and house stimuli" by James Dejardins and Sid Segalowitz (Journal of Vision: https://jov.arvojournals.org/article.aspx?articleid=2121634). The goal of the paper was to untangle the underlying cortical sources of the P100 and N170 ERP face effect complex using ICA. Because ERP face effects have been reported at various times during the P100 and N170 ERP complex the goal was to determine which underlying sources account for effects at the scalp over the ERP period. 
 
 ![face13 ICA decomposition]({{ page.root }}/fig/SDC_EEG_face13_ICA.png)
+
+Because the reliability of some of the P100 and N170 complex ERP effects varied in the literature the statistical analysis of this paper not only looked for ERP differences but used robust bootstrapping measures to assess the replicability of the ERP differences over the period of the P100 and N170 ERP complex.
 
 ![face13 DAR decomposition]({{ page.root }}/fig/SDC_EEG_face13_DAR.png)
 
 ## **The EEG-IP-L (EEG Integrated Platform Lossless) processing pipeline**
 
+The preprocessing methods used in this paper to objectively produce robust ICA decomposition in an automated way eventually evolved into the "EEG Integrated Platform Lossless (EEG-IP-L) pre-processing pipeline for objective signal quality assessment incorporating data annotation and blind source separation" (Desjardins et al. 2021, Journal of Neuroscienc Methods: https://www.sciencedirect.com/science/article/pii/S0165027020303848)
+
 ![EEG-IP-L diagram]({{ page.root }}/fig/SDC_EEG-IP-L_diag.png)
+
+The method also includes an interactive quality control method in which the researcher assesses various signal quality annotation.
 
 ![EEG-IP-L dashboard]({{ page.root }}/fig/SDC_EEG-IP-L_dash.png)
 

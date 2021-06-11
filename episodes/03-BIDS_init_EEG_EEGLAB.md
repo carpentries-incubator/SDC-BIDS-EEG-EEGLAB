@@ -32,7 +32,15 @@ Several files will be produced within each `sub-*/eeg/` folder. All of the file 
 
 Once this procedure is completed, your initialized data will be in the BIDS standard (`sub-*/eeg/`) in the root of your project folder. 
 
+#### **Exploring the formated text files with the participant folders**
+
+Now that the data sessions are bids compliant many of the data parameters are available within formatted text files. This makes it easy to explore the session parameters using a folder browser and simple text editor. No that this also makes it very efficient of tools and platform to access relevant session parameters without having to lead the large data files.
+
 ![BIDS EEG tsv]({{ page.root }}/fig/SDC_BIDS_eeg_tsv.png)
+
+#### **Digging down into the "BIDSification" process**
+
+The scripts used in this workshop use a forked version of the bids_matlab_tools EEGLAB plugin (https://github.com/sccn/bids-matlab-tools). We can explore the specifics of the process by examining the "bids_face13" script provided for this lesson.
 
 ~~~
 >> edit bids_face13
@@ -40,6 +48,8 @@ Once this procedure is completed, your initialized data will be in the BIDS stan
 {: .language-matlab}
 
 ![Edit bids_face13]({{ page.root }}/fig/SDC_BIDS_face13_edit.png)
+
+The bids_export function is the tool that does the bids compiant data writing of an EEGLAB EEG data struct. Looking through this function provides the information about what inputs are required to generate the BIDS compliant data set, as well as what options are available to modify the output.
 
 ~~~
 >> edit bids_export

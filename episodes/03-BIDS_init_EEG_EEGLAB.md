@@ -32,5 +32,21 @@ Several files will be produced within each `sub-*/eeg/` folder. All of the file 
 
 Once this procedure is completed, your initialized data will be in the BIDS standard (`sub-*/eeg/`) in the root of your project folder. 
 
+![BIDS EEG tsv]({{ page.root }}/fig/SDC_BIDS_eeg_tsv.png)
+
+~~~
+>> edit bids_face13
+~~~
+{: .language-matlab}
+
+![Edit bids_face13]({{ page.root }}/fig/SDC_BIDS_face13_edit.png)
+
+~~~
+>> edit bids_export
+~~~
+{: .language-matlab}
+
+![Edit bids_export]({{ page.root }}/fig/SDC_BIDS_export_edit.png)
+
 {% include links.md %}
 

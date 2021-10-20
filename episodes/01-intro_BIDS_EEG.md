@@ -17,7 +17,7 @@ keypoints:
 
 #### **EEG data is complicated and with many properties that can be stored in an infinite number of ways**
 
-In order to work with EEG data the researcher needs to work with several properties of the data. These properties include things like the voltage signals that are sampled at a specific rate, the physical locations of the recording sites, as well as more idiosyncratic properties like the experimental task event marks, etc. When building a lab or planning a new study decisions are made about all of the EEG properties and those properties make up the interpretable material of the research project. Decisions are also made about how all of that information is going to be stored and managed so that it can be found and used by the researcher and software tools later.
+In order to work with EEG data, the researcher needs to work with several properties of the data. These properties include things like the voltage signals that are sampled at a specific rate, the physical locations of the recording sites, as well as more idiosyncratic properties like the experimental task event marks, etc. When building a lab or planning a new study decisions are made about all of the EEG properties and those properties make up the interpretable material of the research project. Decisions are also made about how all of that information is going to be stored and managed so that it can be found and used by the researcher and software tools later.
 
 
 #### **When a researcher is making decisions about EEG parameters and data management strategy for a lab or project some of the questions they might ask are:**
@@ -39,7 +39,7 @@ In order to work with EEG data the researcher needs to work with several propert
 
 #### **Can a data standard provide answers to these questions?**
 
-1- It is always a concern that something important will be missed when designing a data managementstrategy, a clear community driven discussion about adaptive best practices is an ideal way to build confidence in decisions.
+1- It is always a concern that something important will be missed when designing a data management strategy, a clear community driven discussion about adaptive best practices is an ideal way to build confidence in decisions.
 
 2- The best way to keep data valuable in the long term is to have sufficient documentation that is accessible (both findable and interpretable) to not only yourself, but also to others in the future. A published standard offers this documentation, not to mention various other resources (such as workshops like this one).
 
@@ -54,7 +54,7 @@ In order to work with EEG data the researcher needs to work with several propert
 7- People's time in a research project is an important consideration and the time spent on designing a data management strategy can vary greatly. It is also important to note that a unique data management strategy can have unexpected costs in the future. An established data standard has had the opportunity to collect experience from across the research community over several generations of projects. 
 
 ## **The face13 data set**
-The example data set used in this lesson is the sample used in the 2013 paper "Deconstructing the early visual electrocortical responses to face and house stimuli" by James Dejardins and Sid Segalowitz (Journal of Vision: https://jov.arvojournals.org/article.aspx?articleid=2121634). The goal of the paper was to untangle the underlying cortical sources of the P100 and N170 ERP face effect complex using ICA. Because ERP face effects have been reported at various times during the P100 and N170 ERP complex, the goal was to determine which underlying sources account for effects at the scalp over the ERP period. 
+The example data set used in this lesson is the sample used in the 2013 paper "Deconstructing the early visual electrocortical responses to face and house stimuli" by James Desjardins and Sid Segalowitz (Journal of Vision: https://jov.arvojournals.org/article.aspx?articleid=2121634). The goal of the paper was to untangle the underlying cortical sources of the P100 and N170 ERP face effect complex using independent component analysis (ICA). Because ERP face effects have been reported at various times during the P100 and N170 ERP complex, the goal was to determine which underlying sources account for effects at the scalp over the ERP period. 
 
 ![face13 ICA decomposition]({{ page.root }}/fig/SDC_EEG_face13_ICA.png)
 
@@ -64,7 +64,7 @@ Because the reliability of some of the P100 and N170 complex ERP effects varied 
 
 ## **The EEG-IP-L (EEG Integrated Platform Lossless) processing pipeline**
 
-The preprocessing methods used in this paper to objectively produce robust ICA decomposition in an automated way eventually evolved into the "EEG Integrated Platform Lossless (EEG-IP-L) pre-processing pipeline for objective signal quality assessment incorporating data annotation and blind source separation" (Desjardins et al. 2021, Journal of Neuroscienc Methods: https://www.sciencedirect.com/science/article/pii/S0165027020303848)
+The preprocessing methods used in this paper to objectively produce robust ICA decomposition in an automated way eventually evolved into the "EEG Integrated Platform Lossless (EEG-IP-L) pre-processing pipeline for objective signal quality assessment incorporating data annotation and blind source separation" (Desjardins et al. 2021, Journal of Neuroscience Methods: https://www.sciencedirect.com/science/article/pii/S0165027020303848)
 
 ![EEG-IP-L diagram]({{ page.root }}/fig/SDC_EEG-IP-L_diag.png)
 
@@ -86,7 +86,7 @@ The standard is actively discussed and evolving to adopt new features. You can f
 Navigating the example data sets provides not only a demonstration of the data organization but also the diversity that the standard enables.
 
 #### **eeg_face13 example**
-The eeg_face13 examples data set (https://github.com/bids-standard/bids-examples/tree/bep021_ephys_derivatives/eeg_face13) not only demonstrates the layout of the raw sample data in the standard but also contains an example of storing the output of the EEG-IP-L pipeline as a derivative state of sample.
+The eeg_face13 examples data set (https://github.com/bids-standard/bids-examples/tree/bep021_ephys_derivatives/eeg_face13) not only demonstrates the layout of the raw sample data in the standard but also contains an example of storing the output of the EEG-IP-L pipeline as a derivative state of the sample.
 
 #### **eeg_face13 example root folder**
 The root folder of the project's BIDS structure contains high level project information and a directory for each participant.
@@ -94,7 +94,7 @@ The root folder of the project's BIDS structure contains high level project info
 ![BIDS examples root]({{ page.root }}/fig/SDC_EEG_BIDS_example.png)
 
 #### **eeg_face13 example sourcedata folder**
-Although the raw rata are stored in specified formats, the original native files acquired in the lab hardware can always remain in the sourcdata folder unmodified.
+Although the raw data are stored in specified formats, the original native files acquired in the lab hardware can always remain in the sourcdata folder unmodified.
 
 ![BIDS examples source]({{ page.root }}/fig/SDC_BIDS_example_sourcedata.png)
 

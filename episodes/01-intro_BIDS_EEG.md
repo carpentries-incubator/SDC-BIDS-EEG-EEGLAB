@@ -54,7 +54,7 @@ In order to work with EEG data, the researcher needs to work with several proper
 7- People's time in a research project is an important consideration and the time spent on designing a data management strategy can vary greatly. It is also important to note that a unique data management strategy can have unexpected costs in the future. An established data standard has had the opportunity to collect experience from across the research community over several generations of projects. 
 
 ## **The face13 data set**
-The example data set used in this lesson is the sample used in the 2013 paper "Deconstructing the early visual electrocortical responses to face and house stimuli" by James Desjardins and Sid Segalowitz (Journal of Vision: https://jov.arvojournals.org/article.aspx?articleid=2121634). The goal of the paper was to untangle the underlying cortical sources of the P100 and N170 ERP face effect complex using independent component analysis (ICA). Because ERP face effects have been reported at various times during the P100 and N170 ERP complex, the goal was to determine which underlying sources account for effects at the scalp over the ERP period. 
+The example data set used in this lesson is the sample used in the 2013 paper ["Deconstructing the early visual electrocortical responses to face and house stimuli"](https://jov.arvojournals.org/article.aspx?articleid=2121634) by James Desjardins and Sid Segalowitz. The goal of the paper was to untangle the underlying cortical sources of the P100 and N170 ERP face effect complex using independent component analysis (ICA). Because ERP face effects have been reported at various times during the P100 and N170 ERP complex, the goal was to determine which underlying sources account for effects at the scalp over the ERP period. 
 
 ![face13 ICA decomposition]({{ page.root }}/fig/SDC_EEG_face13_ICA.png)
 
@@ -64,7 +64,7 @@ Because the reliability of some of the P100 and N170 complex ERP effects varied 
 
 ## **The EEG-IP-L (EEG Integrated Platform Lossless) processing pipeline**
 
-The preprocessing methods used in this paper to objectively produce robust ICA decomposition in an automated way eventually evolved into the "EEG Integrated Platform Lossless (EEG-IP-L) pre-processing pipeline for objective signal quality assessment incorporating data annotation and blind source separation" (Desjardins et al. 2021, Journal of Neuroscience Methods: https://www.sciencedirect.com/science/article/pii/S0165027020303848)
+The preprocessing methods used in this paper to objectively produce robust ICA decomposition in an automated way eventually evolved into the ["EEG Integrated Platform Lossless (EEG-IP-L) pre-processing pipeline for objective signal quality assessment incorporating data annotation and blind source separation"](https://www.sciencedirect.com/science/article/pii/S0165027020303848)(Desjardins et al. 2021, Journal of Neuroscience Methods).
 
 ![EEG-IP-L diagram]({{ page.root }}/fig/SDC_EEG-IP-L_diag.png)
 
@@ -75,18 +75,18 @@ The method also includes an interactive quality control method in which the rese
 ## **EEG-BIDS examples: face13 data and the EEG-IP-L derivative**
 
 #### **BIDS home page and publications**
-The Brain Imaging Data Structure (BIDS: https://bids.neuroimaging.io/) is a standard for organizing the content of various neuroimaging modalities (MRI, MEG, EEG). "The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments" was published in 2016 by Gorgolewski et al., (Nature: https://www.nature.com/articles/sdata201644). "EEG-BIDS, an extension to the brain imaging data structure for electroencephalography" was published in 2019 by Pernet et al., (Nature: https://www.nature.com/articles/s41597-019-0104-8).
+The [Brain Imaging Data Structure](https://bids.neuroimaging.io/) (BIDS) is a standard for organizing the content of various neuroimaging modalities (MRI, MEG, EEG). ["The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments"](https://www.nature.com/articles/sdata201644) was published in 2016 by Gorgolewski et al. ["EEG-BIDS, an extension to the brain imaging data structure for electroencephalography"](https://www.nature.com/articles/s41597-019-0104-8) was published in 2019 by Pernet et al.
 
 #### **BIDS starter kit repository**
-The BIDS standard starter kit can be found at github here: https://github.com/bids-standard/bids-starter-kit
+The BIDS standard starter kit can be found at github [here](https://github.com/bids-standard/bids-starter-kit).
 
 #### **BIDS examples repository**
-The standard is actively discussed and evolving to adopt new features. You can find the face13 data set among the bids-examples at github here: https://github.com/bids-standard/bids-examples
+The standard is actively discussed and evolving to adopt new features. You can find the face13 data set among the bids-examples at github [here](https://github.com/bids-standard/bids-examples).
 
 Navigating the example data sets provides not only a demonstration of the data organization but also the diversity that the standard enables.
 
 #### **eeg_face13 example**
-The eeg_face13 examples data set (https://github.com/bids-standard/bids-examples/tree/bep021_ephys_derivatives/eeg_face13) not only demonstrates the layout of the raw sample data in the standard but also contains an example of storing the output of the EEG-IP-L pipeline as a derivative state of the sample.
+The [eeg_face13 examples data set](https://github.com/bids-standard/bids-examples/tree/bep021_ephys_derivatives/eeg_face13) not only demonstrates the layout of the raw sample data in the standard but also contains an example of storing the output of the EEG-IP-L pipeline as a derivative state of the sample.
 
 #### **eeg_face13 example root folder**
 The root folder of the project's BIDS structure contains high level project information and a directory for each participant.

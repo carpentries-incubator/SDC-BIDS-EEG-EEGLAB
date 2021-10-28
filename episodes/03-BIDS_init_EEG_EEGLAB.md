@@ -40,7 +40,7 @@ Now that the data sessions are BIDS compliant many of the data parameters are av
 
 #### **Digging down into the "BIDSification" process**
 
-The scripts used in this workshop use a forked version of the bids_matlab_tools EEGLAB plugin (https://github.com/sccn/bids-matlab-tools). We can explore the specifics of the process by examining the "bids_face13" script provided for this lesson.
+The scripts used in this workshop use a forked version of the [bids_matlab_tools EEGLAB plugin](https://github.com/sccn/bids-matlab-tools). We can explore the specifics of the process by examining the "bids_face13" script provided for this lesson.
 
 ~~~
 >> edit bids_face13
@@ -57,6 +57,10 @@ The bids_export function is the tool that does the BIDS compliant data writing o
 {: .language-matlab}
 
 ![Edit bids_export]({{ page.root }}/fig/SDC_BIDS_export_edit.png)
+
+#### **Next steps**
+
+Once the data are BIDS compliant, you are now ready to begin working with the data in the [Processing data with EEGLAB tutorial](https://carpentries-incubator.github.io/SDC-EEGLAB/).
 
 {% include links.md %}
 

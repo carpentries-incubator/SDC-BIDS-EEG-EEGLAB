@@ -3,15 +3,15 @@
 [![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
 [![Slack Status](https://img.shields.io/badge/Slack_Channel-neuroimaging-E01563.svg)](https://swcarpentry.slack.com/messages/CCJBHKCHZ)
 
-An introduction to working with EEGLAB and BIDS-EEG. The rendered version of the lesson can be found [here](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/)
+An introduction to the Brain Imaging Data Structure (BIDS) and working with BIDS in EEGLAB. The rendered version of the lesson can be found [here](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/)
 
 ## Episodes
 
 | # | Episode | Time | Questions |
 | ---- | ---- | :----: | ---- |
-| 1 | [Intorduction to BIDS-EEG](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/01-intro_BIDS_EEG/index.html) | 30 | Why are data standards important? <br> What information needs to be standardized for EEG? |
-| 2 | [EEGLAB within BIDS-EEG](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/02-data_property/index.html) | 30 | What does EEGLAB need to know about the folder structures? <br> How to set up the paths in Matlab/Octave? | 
-| 3 | [Initializing Data into the BIDS standard](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/03-BIDS_init_EEG_EEGLAB/index.html) | 30 | How do I get my data into the BIDS standard? | 
+| 1 | [Introduction to BIDS-EEG](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/01-intro_BIDS_EEG/index.html) | 30 | Why are data standards important? <br> What information needs to be standardized for EEG? |
+| 2 | [Matlab: need to knows](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/02-data_property/index.html) | 30 | What does EEGLAB need to know about the folder structures? <br> How to set up the paths in Matlab for EEGLAB | 
+| 3 | [Initializing Data into the BIDS standard](https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/03-BIDS_init_EEG_EEGLAB/index.html) | 30 | How do I get my data into the BIDS standard? <br> What does a BIDS folder structure look like? | 
 
 ## Contributing
 

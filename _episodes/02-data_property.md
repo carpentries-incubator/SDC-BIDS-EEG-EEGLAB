@@ -116,11 +116,17 @@ eeglab;
 ~~~
 {: .source}
 
-In Matlab, navigate to the Face13 folder that you created during the setup.
+In Matlab, **navigate to the `Face13` folder** that you created during the setup.
 
 Now that Matlab is pointed to the Face13 folder we need to tell it where to find the "eeglab.m" file that we want to use for this lesson. Navigating in the Current Folder window (by expanding folders WITHOUT selecting (double clicking) them) we find the "eeglab.m" file in 'code/BIDS-Init-Face13-EEGLAB/eeglab'. We need to add this folder to Matlab's path in order to run this version of EEGLAB. We can add this folder to Matlab's path in several ways including using the "set path" button in the toolbar, but given that we are all in the same folder structure the following "addpath" calls in the Command Window should work. 
 
-![eeglab path]({{ page.root }}/fig/eeglab_path.png)
+![eeglab path]({{ page.root }}/fig/eeglab_path.bmp)
+
+> ## Path for Face13 folder
+> It is important to ensure that `Face13` is the last folder listed in your Matlab path as this indicates that `Face13` is your current working directory. You should see the `code` and `sourcedata` folders within the Current Folder window in Matlab.
+> 
+> {: .source}
+{: .callout}
 
 ~~~
 >> addpath code/BIDS-Init-Face13-EEGLAB
@@ -133,6 +139,12 @@ Now let's try "eeglab" again from the Command Window.
 eeglab
 ~~~
 {: .source}
+
+> ## Warning: Name is nonexistent or not a directory
+> If when adding the paths or trying to open eeglab you receive a warning stating that the name is nonexistent or not a directory, ensure that you have navigated to the `Face13` folder that you made during the setup. Also make sure that the `code` and `sourcedata` folders are located within the `Face13` folder. 
+>
+> {: .source}
+{: .callout}
 
 EEGLAB has a Graphical User Interface (GUI) so we will be able to do a lot of the processing by clicking in menus and interacting with figures, but we will also learn how to take advantage of EEGLAB's integration with the command line interface to work more efficiently and reliably.
 

@@ -141,7 +141,7 @@ eeglab
 {: .source}
 
 > ## Warning: Name is nonexistent or not a directory
-> If when adding the paths or trying to open eeglab you receive a warning stating that the name is nonexistent or not a directory, ensure that you have navigated to the `Face13` folder that you made during the setup. Also make sure that the `code` and `sourcedata` folders are located within the `Face13` folder. 
+> If when adding the paths or trying to open EEGLAB you receive a warning stating that the name is nonexistent or not a directory, ensure that you have navigated to the `Face13` folder that you made during the setup. Also make sure that the `code` and `sourcedata` folders are located within the `Face13` folder. 
 >
 > {: .source}
 {: .callout}

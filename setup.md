@@ -16,5 +16,14 @@ You will need a fairly recent version of Matlab (procedure tested on Matlab 2012
 
 You should see two folders called `sourcedata` and `code` in the `Face13` directory on your Desktop. The `sourcedata` folder contains the EEG data and standard montages that are used during initialization. The `code` folder contains a version of EEGLAB and the necessary scripts to intialize the data into a BIDS compliant folder structure.
 
+Your `Face13` folder should look like this:
+![Setup folder structure]({{ page.root }}/fig/setup_folderlayout.png)
+
+> ## Important Note
+> It is important that your `Face13` folder is organized in this way so that Matlab and the provided code are able to locate files. 
+> 
+> {: .source}
+{: .callout}
+
 
 {% include links.md %}

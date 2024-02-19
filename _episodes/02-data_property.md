@@ -33,7 +33,6 @@ Lets open the Matlab Integrated Development Environment (IDE) and take a look at
 > 4. Command History: This is the interactive list of operations that have been called from the Command Window.
 > 5. Editor: This is a text editor with added features for modifying Matlab interpreted text files (*.m files). 
 >
-> {: .source}
 {: .callout}
 
 #### **Creating variables in the Matlab CLI**
@@ -125,7 +124,6 @@ Now that Matlab is pointed to the Face13 folder we need to tell it where to find
 > ## Path for Face13 folder
 > It is important to ensure that `Face13` is the last folder listed in your Matlab path as this indicates that `Face13` is your current working directory. You should see the `code` and `sourcedata` folders within the Current Folder window in Matlab.
 > 
-> {: .source}
 {: .callout}
 
 ~~~
@@ -143,7 +141,6 @@ eeglab
 > ## Warning: Name is nonexistent or not a directory
 > If when adding the paths or trying to open EEGLAB you receive a warning stating that the name is nonexistent or not a directory, ensure that you have navigated to the `Face13` folder that you made during the setup. Also make sure that the `code` and `sourcedata` folders are located within the `Face13` folder. 
 >
-> {: .source}
 {: .callout}
 
 EEGLAB has a Graphical User Interface (GUI) so we will be able to do a lot of the processing by clicking in menus and interacting with figures, but we will also learn how to take advantage of EEGLAB's integration with the command line interface to work more efficiently and reliably.

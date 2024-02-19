@@ -33,7 +33,6 @@ Lets open the Matlab Integrated Development Environment (IDE) and take a look at
 > 4. Command History: This is the interactive list of operations that have been called from the Command Window.
 > 5. Editor: This is a text editor with added features for modifying Matlab interpreted text files (*.m files). 
 >
-> {: .source}
 {: .callout}
 
 #### **Creating variables in the Matlab CLI**
@@ -125,7 +124,6 @@ Now that Matlab is pointed to the Face13 folder we need to tell it where to find
 > ## Path for Face13 folder
 > It is important to ensure that `Face13` is the last folder listed in your Matlab path as this indicates that `Face13` is your current working directory. You should see the `code` and `sourcedata` folders within the Current Folder window in Matlab.
 > 
-> {: .source}
 {: .callout}
 
 ~~~

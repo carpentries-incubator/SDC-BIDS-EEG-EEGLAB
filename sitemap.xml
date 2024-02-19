@@ -19,7 +19,13 @@
     <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/discuss.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/index.html</loc>
@@ -43,16 +49,34 @@
     <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/discuss.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/profiles.html</loc>

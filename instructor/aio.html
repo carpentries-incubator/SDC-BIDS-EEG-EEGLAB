@@ -591,12 +591,12 @@ things:</p>
 </ol>
 <p>Lets open the Matlab Integrated Development Environment (IDE) and
 take a look at these capabilities.</p>
-<figure><img src="../fig/matlab_ide.png" alt="Matlab Integrated Development Environment" class="figure mx-auto d-block"></figure><div id="anatomy-of-the-matlab-integrated-development-environment-ide" class="callout callout">
+<figure><img src="../fig/matlab_ide.png" alt="Matlab Integrated Development Environment" class="figure mx-auto d-block"></figure><div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="anatomy-of-the-matlab-integrated-development-environment-ide" class="callout-inner">
-<h3 class="callout-title">Anatomy of the Matlab Integrated Development
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="anatomy-of-the-matlab-integrated-development-environment-ide">Anatomy of the Matlab Integrated Development
 Environment (IDE)<a class="anchor" aria-label="anchor" href="#anatomy-of-the-matlab-integrated-development-environment-ide"></a>
 </h3>
 <div class="callout-content">
@@ -630,12 +630,12 @@ accomplished using the “=” character.</p>
 <p>We can create a new variable named “x” and make it equal to a series
 of numbers:</p>
 <pre class="source"><code>x=[1,2,3,4,5];</code></pre>
-<div id="there-are-several-ways-to-store-information-in-the-workspace" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="there-are-several-ways-to-store-information-in-the-workspace" class="callout-inner">
-<h3 class="callout-title">There are several ways to store information in
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="there-are-several-ways-to-store-information-in-the-workspace">There are several ways to store information in
 the workspace<a class="anchor" aria-label="anchor" href="#there-are-several-ways-to-store-information-in-the-workspace"></a>
 </h3>
 <div class="callout-content">
@@ -720,12 +720,12 @@ folder to Matlab’s path in several ways including using the “set path”
 button in the toolbar, but given that we are all in the same folder
 structure the following “addpath” calls in the Command Window should
 work.</p>
-<figure><img src="../fig/eeglab_path.bmp" alt="eeglab path" class="figure mx-auto d-block"></figure><div id="path-for-face13-folder" class="callout callout">
+<figure><img src="../fig/eeglab_path.bmp" alt="eeglab path" class="figure mx-auto d-block"></figure><div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="path-for-face13-folder" class="callout-inner">
-<h3 class="callout-title">Path for Face13 folder<a class="anchor" aria-label="anchor" href="#path-for-face13-folder"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="path-for-face13-folder">Path for Face13 folder<a class="anchor" aria-label="anchor" href="#path-for-face13-folder"></a>
 </h3>
 <div class="callout-content">
 <p>It is important to ensure that <code>Face13</code> is the last folder
@@ -740,12 +740,12 @@ Matlab.</p>
 &gt;&gt; addpath code/BIDS-Init-Face13-EEGLAB/eeglab</code></pre>
 <p>Now let’s try “eeglab” again from the Command Window.</p>
 <pre class="source"><code><span><span class="va">eeglab</span></span></code></pre>
-<div id="warning-name-is-nonexistent-or-not-a-directory" class="callout callout">
+<div id="callout4" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="warning-name-is-nonexistent-or-not-a-directory" class="callout-inner">
-<h3 class="callout-title">Warning: Name is nonexistent or not a
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="warning-name-is-nonexistent-or-not-a-directory">Warning: Name is nonexistent or not a
 directory<a class="anchor" aria-label="anchor" href="#warning-name-is-nonexistent-or-not-a-directory"></a>
 </h3>
 <div class="callout-content">
@@ -837,7 +837,7 @@ All of the EEG files for that participant will be stored within
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">MATLAB<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode matlab" tabindex="0"><code class="sourceCode matlab"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;</span> <span class="va">bids_face13</span></span></code></pre>
+<pre class="sourceCode matlab" tabindex="0"><code class="sourceCode matlab"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="op">&gt;&gt;</span> <span class="va">bids_face13</span></span></code></pre>
 </div>
 <p>A file chooser window will pop up when running the
 <code>bids_face13.m</code> script. This file chooser is asking where you
@@ -878,7 +878,7 @@ examining the “bids_face13” script provided for this lesson.</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">MATLAB<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode matlab" tabindex="0"><code class="sourceCode matlab"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;</span> <span class="va">edit</span> <span class="va">bids_face13</span></span></code></pre>
+<pre class="sourceCode matlab" tabindex="0"><code class="sourceCode matlab"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="op">&gt;&gt;</span> <span class="va">edit</span> <span class="va">bids_face13</span></span></code></pre>
 </div>
 <figure><img src="../fig/SDC_BIDS_face13_edit.png" alt="Edit bids_face13" class="figure mx-auto d-block"></figure><p>The bids_export function is the tool that does the BIDS compliant
 data writing of an EEGLAB EEG data structure. Looking through this
@@ -888,7 +888,7 @@ available to modify the output.</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">MATLAB<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode matlab" tabindex="0"><code class="sourceCode matlab"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;</span> <span class="va">edit</span> <span class="va">bids_export</span></span></code></pre>
+<pre class="sourceCode matlab" tabindex="0"><code class="sourceCode matlab"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="op">&gt;&gt;</span> <span class="va">edit</span> <span class="va">bids_export</span></span></code></pre>
 </div>
 <figure><img src="../fig/SDC_BIDS_export_edit.png" alt="Edit bids_export" class="figure mx-auto d-block"></figure>
 </div>
@@ -962,8 +962,8 @@ data with EEGLAB tutorial</a>.</p>
   "url": "https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/aio.html",
   "identifier": "https://carpentries-incubator.github.io/SDC-BIDS-EEG-EEGLAB/instructor/aio.html",
   "dateCreated": "2024-02-19",
-  "dateModified": "2024-02-27",
-  "datePublished": "2024-02-27"
+  "dateModified": "2024-03-05",
+  "datePublished": "2024-03-05"
 }
 
   </script><script>

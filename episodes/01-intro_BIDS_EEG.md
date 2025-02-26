@@ -84,11 +84,11 @@ The [Brain Imaging Data Structure](https://bids.neuroimaging.io/) (BIDS) is a st
 
 #### **BIDS starter kit repository**
 
-The BIDS standard starter kit can be found at github [here](https://github.com/bids-standard/bids-starter-kit).
+The BIDS standard starter kit can be [found on GitHub](https://github.com/bids-standard/bids-starter-kit).
 
 #### **BIDS examples repository**
 
-The standard is actively discussed and evolving to adopt new features. You can find the face13 data set among the bids-examples at github [here](https://github.com/bids-standard/bids-examples).
+The standard is actively discussed and evolving to adopt new features. The GitHub `bids-examples` folder contains the [face13 dataset](https://github.com/bids-standard/bids-examples).
 
 Navigating the example data sets provides not only a demonstration of the data organization but also the diversity that the standard enables.
 
